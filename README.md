@@ -7,7 +7,7 @@ I used Javascript and the [Phaser library](https://phaser.io/phaser3), a framewo
 # Gameplay
 This game features all the classic rules in checkers. Diagonal movements, skips, and king pieces. If a piece has a legal capture, it must play that move--unless, of course, the player had already captured with another piece on the same turn.
 
-<img src="assets/images/screenshot.png" width="200">
+<img src="assets/images/screenshot.png" width="400">
 
 # Difficulties and What I Learned
 As my first tile-based game, I came across many road blocks. With regards to the organization of my custom classes, I separated them into the following: Board, Checkerpiece, CheckerTile, and Position. My plan was for each piece to provide the board with its legal moves. Once all the legal moves are taken for each piece, the turn transfers to the next player.
